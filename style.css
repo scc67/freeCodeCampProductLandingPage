@@ -1,12 +1,58 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 html {
-    font-size: 10px;
+  font-size: 10px;
+  scroll-padding-top: 9rem;
 }
 
-#navbar {
-    display: flex;
-    font-size: 1.6rem;
+body {
+  display: block;
+  margin: 0;
+}
+
+#nav-bar {
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: tomato;
+}
+.nav-bar--section {
+  display: flex;
+}
+
+.nav-link {
+  font-size: 3rem;
+  padding: 1rem;
+  align-self: center;
+}
+
+.nav-link:hover {
+  background-color: rgb(235, 90, 65);
+}
+
+#nav-bar--img {
+  height: 100%;
+  width: 9rem;
+}
+
+#head {
+  margin-top: 8rem;
+}
+
+main {
+  width: 80%;
+  margin: 0 10% 0 10%;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+p {
+  text-align: justify;
 }
